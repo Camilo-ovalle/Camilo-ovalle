@@ -10,17 +10,17 @@
 
 - 🔭 I’m currently working on [LgTeslap Project manager](https://github.com/Camilo-ovalle/LgTeslap-Frontend.git)
 
-- 🌱 I’m currently learning **about how to bouild a propper backend using Go and Java**
+- 🌱 I’m currently learning **about how to build a proper backend using Go and Java**
 
 - 👨‍💻 All of my projects are available at [https://github.com/Camilo-ovalle](https://github.com/Camilo-ovalle)
 
 - 📫 How to reach me **camilo.enrique.ovalle@gmail.com**
 
-- 📄 Know about my experiences [https://drive.google.com/file/d/1ozvdofyY1TcGNWaNThX1JzbPwvoxWAm4/view?usp=drive_link](https://drive.google.com/file/d/1ozvdofyY1TcGNWaNThX1JzbPwvoxWAm4/view?usp=drive_link)
+- 📄 [Check my CV](https://drive.google.com/file/d/1ozvdofyY1TcGNWaNThX1JzbPwvoxWAm4/view?usp=drive_link)
 
 <h3 align="center">Connect with me:</h3>
 <p align="center">
-<a href="https://linkedin.com/in/https://www.linkedin.com/in/camilo-ovalle/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="https://www.linkedin.com/in/camilo-ovalle/" height="30" width="40" /></a>
+<a href="https://www.linkedin.com/in/camilo-ovalle/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="https://www.linkedin.com/in/camilo-ovalle/" height="30" width="40" /></a>
 </p>
 
 <h3 align="center">Languages and Tools:</h3>
