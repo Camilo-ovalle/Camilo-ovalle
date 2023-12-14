@@ -1,27 +1,81 @@
-<h1 align="center">Hi 👋, I'm Camilo Ovalle</h1>
-<p align="center">I am a software developer based in Bogota, Colombia, and I always have been interested in the technology and development industry. </p>
 
-<p align="center">I built my first website when I was 17 years old when I was in middle school and since that day I got hooked on this fascinating world and made it part of my life. </p>
+<h1 align='center'>Hi there  👋, I'm Camilo Ovalle 🧑‍💻</h1>
 
-<p align="center">Based on that, I have always been part of the IT departments of all companies where I worked, acting as a consultor about technology, solving most of the tech issues that my coworkers had, and acting as the head leader when the situation demanded it, and that way I wis able to be in touch with the tech department of my last job, based in the USA, solving network and connection issues and modifying and updating the main production program.</p>
-
-<br>
-<br>
-
-- 🔭 I’m currently working on [LgTeslap Project manager](https://github.com/Camilo-ovalle/LgTeslap-Frontend.git)
-
-- 🌱 I’m currently learning **about how to build a proper backend using Go and Java**
-
-- 👨‍💻 All of my projects are available at [https://github.com/Camilo-ovalle](https://github.com/Camilo-ovalle)
-
-- 📫 How to reach me **camilo.enrique.ovalle@gmail.com**
-
-- 📄 [Check my CV](https://drive.google.com/file/d/1ozvdofyY1TcGNWaNThX1JzbPwvoxWAm4/view?usp=drive_link)
-
-<h3 align="center">Connect with me:</h3>
-<p align="center">
-<a href="https://www.linkedin.com/in/camilo-ovalle/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="https://www.linkedin.com/in/camilo-ovalle/" height="30" width="40" /></a>
+<p align='center'>
+   Fullstack software developer, well-versed in technologies like Javascript, React, SASS, NodeJS, Angular, Google Cloud Platform, and more. I create awesome solutions that help make people's daily lives easier, I continuously pursue more skills and I share my knowledge a cross blogs and communities.
 </p>
 
-<h3 align="center">Languages and Tools:</h3>
-<p align="center"><a href="https://azure.microsoft.com/en-in/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/microsoft_azure/microsoft_azure-icon.svg" alt="azure" width="40" height="40"/> </a> <a href="https://www.docker.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://www.linux.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> </a> <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> </a> <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a> <a href="https://tailwindcss.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="tailwind" width="40" height="40"/> </a></p>
+<p align='center'>
+    Also, I'm Community Lead at <strong><a href="https://dsc.community.dev/platzi-mexico-city/">Developer Student Clubs Platzi Mexico City</a></strong> and a co-organizer at <strong><a href="https://gdg.community.dev/gdg-cloud-mexico-city/">Google Developer Group Cloud Mexico City</a></strong>
+</p>
+
+<p align='center'>
+  <a href="www.linkedin.com/in/camilo-ovalle"><img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a>&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="https://api.whatsapp.com/send?phone=573192966892"><img src="https://img.shields.io/badge/WhatsApp-logo?style=for-the-badge&logo=whatsapp&logoColor=%23ffffff
+" /></a>&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="mailto:camilo.enrique.ovalle@gmail.com?subject=Hola%20Camilo"><img src="https://img.shields.io/badge/gmail-%23D14836.svg?&style=for-the-badge&logo=gmail&logoColor=white" /></a>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+
+</p>
+
+<hr>
+
+<h3>🛠️ My Development skill set</h4>
+<p >
+  <img src="https://img.shields.io/badge/html5%20-%23e34f26.svg?&style=for-the-badge&logo=html5&logoColor=white" />&nbsp;&nbsp;
+  <img src="https://img.shields.io/badge/css3%20-%231572B6.svg?&style=for-the-badge&logo=css3&logoColor=white" />&nbsp;&nbsp;
+  <img src="https://img.shields.io/badge/javascript%20-%23F7DF1E.svg?&style=for-the-badge&logo=javascript&logoColor=white" />&nbsp;&nbsp;
+  <img src="https://img.shields.io/badge/react%20-%2361DAFB.svg?&style=for-the-badge&logo=react&logoColor=white" />&nbsp;&nbsp;
+  <img src="https://img.shields.io/badge/node.js%20-%23339933.svg?&style=for-the-badge&logo=node.js&logoColor=white" />&nbsp;&nbsp;
+  <img src="https://img.shields.io/badge/express%20-%23339933.svg?&style=for-the-badge&logo=express&logoColor=white" />&nbsp;&nbsp;
+  <img src="https://img.shields.io/badge/git%20-%23F05133.svg?&style=for-the-badge&logo=git&logoColor=white" />&nbsp;&nbsp;
+  <img src="https://img.shields.io/badge/mysql%20-%23016B93.svg?&style=for-the-badge&logo=mysql&logoColor=white" />&nbsp;&nbsp;
+  <img src="https://img.shields.io/badge/Linux-logo?style=for-the-badge&logo=ubuntu&logoColor=white&color=orange
+" />&nbsp;&nbsp;
+  <img src="https://img.shields.io/badge/Astro-logo?style=for-the-badge&logo=Astro&logoColor=orange&color=gray
+" />&nbsp;&nbsp;
+  <img src="https://img.shields.io/badge/github%20-%23000.svg?&style=for-the-badge&logo=github&logoColor=white" />&nbsp;&nbsp;
+  <img src="https://img.shields.io/badge/mongodb%20-%2358aa50.svg?&style=for-the-badge&logo=mongodb&logoColor=white" />&nbsp;&nbsp;
+  <img src="https://img.shields.io/badge/docker%20-%232496ED.svg?&style=for-the-badge&logo=docker&logoColor=white" />&nbsp;&nbsp;
+</p>
+
+<hr>
+
+<h3>👨‍💻&nbsp;&nbsp;&nbsp;My Projects</h3>
+
+<h4><a href="https://github.com/Camilo-ovalle/LgTeslap-Frontend.git">💻 LgTeslap service manager</a></h4>
+<p>CRUD app built with React and work with NodeJS, Express and MySql. App have Routers to redirect or navigate to others sections. Also it's hosted by Railway and one API deployed in Fly.io. <br>
+<a href="https://github.com/Camilo-ovalle/LgTeslap-Frontend.git">Frontend here</a>&nbsp;| <a href="https://github.com/Camilo-ovalle/LgTeslap-Frontend.git">Backend here</a></p>
+
+<h4><a href="https://github.com/Camilo-ovalle/Qurious-Blog.git">🚀 Dev-Gate blog</a></h4>
+<p>A tech blog created with Astro js and Netlify.<br>
+<a href="https://github.com/dfloresdev/personal-blog">Repository here</a></p>
+
+<h5><a href="https://dfloresdev.github.io/rick-and-morty/">🙋‍♂️ Rick and Morty</a></h5>
+<p>Javascript project, calling a API Rick and Morty and show data in the client.<br>
+<a href="https://github.com/dfloresdev/rick-and-morty">Repository here</a></p>
+
+<h5><a href="https://dfloresdev.github.io/basic-landing-page/">📃 Basic Landing Page</a></h5>
+<p>Simple responsive Landing Page<br>
+<a href="https://github.com/dfloresdev/basic-landing-page">Repository here</a></p>
+
+<h5><a href="https://thespianartist-33a0a.web.app/">📃 Thespianartist Portfolio</a></h5>
+<p>Collaboration with UI/UX Designer, I created your portfolio in React<br>
+<a href="https://github.com/dfloresdev/thespianartist-portfolio">Repository here</a></p>
+
+<h5><a href="https://marvel-4d6ytbdwza-uc.a.run.app/">🏆 Marvel</a></h5>
+<p>In this app you can see a superheros and they collaborators, this app have two services<br>
+<a href="https://github.com/dfloresdev/marvel_connections">Repository here</a></p>
+
+<hr>
+
+<h4>👨‍🔬&nbsp;&nbsp;&nbsp;Open Source</h4>
+<h5><a href="https://www.npmjs.com/package/@dfloresdev/google-storage-ghost">Ghost + Google Cloud Storage 👻☁️</a></h5>
+<p>Adaptor for Google Cloud Storage and Ghost
+<br>
+<a href="https://github.com/dfloresdev/google-storage-ghost">Repository here</a></p>
+
+<h5><a href="https://youtu.be/2jW9AeibcI8">📰 Docker, Ghost and Cloud Storage</a></h5>
+<p>Run Ghost in Google Cloud Platform
+<br>
+<a href="https://github.com/dfloresdev/docker-ghost-cloud-storage">Repository here</a></p>
