@@ -41,9 +41,9 @@
 <p>CRUD app built with React and work with NodeJS, Express and MySql. App have Routers to redirect or navigate to others sections. Also it's hosted by Railway and one API deployed in Fly.io. <br>
 <a href="https://github.com/Camilo-ovalle/LgTeslap-Frontend.git">Frontend here</a>&nbsp;| <a href="https://github.com/Camilo-ovalle/LgTeslap-Frontend.git">Backend here</a></p>
 
-<h4><a href="https://github.com/Camilo-ovalle/Qurious-Blog.git">Dev🚀Gate</a></h4>
+<h4><a href="https://dev-gate.netlify.app/">Dev🚀Gate</a></h4>
 <p>A tech blog created with Astro js and Netlify.<br>
-<a href="https://github.com/dfloresdev/personal-blog">Repository here</a></p>
+<a href="https://github.com/Camilo-ovalle/Qurious-Blog.git">Repository here</a></p>
 
 <hr>
 
