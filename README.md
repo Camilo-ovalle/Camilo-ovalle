@@ -2,7 +2,7 @@
 <h1 align='center'>Hi there  👋, I'm Camilo Ovalle 🧑‍💻</h1>
 
 <p align='center'>
-   I am  a fullstack software developer, well-versed in technologies like Javascript, React, NodeJS and more. I like to create solutions and teach people about new technologies, and I continuously improve my skills and use to share my knowledge a cross blogs and communities.
+   I am  a fullstack software developer, versed in technologies like Javascript, React, NodeJS and more. I like to create solutions and teach people about new technologies, and I continuously improve my skills and use to share my knowledge a cross blogs and communities.
 </p>
 
 <p align='center'>
