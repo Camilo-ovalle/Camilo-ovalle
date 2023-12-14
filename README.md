@@ -2,11 +2,7 @@
 <h1 align='center'>Hi there  👋, I'm Camilo Ovalle 🧑‍💻</h1>
 
 <p align='center'>
-   Fullstack software developer, well-versed in technologies like Javascript, React, SASS, NodeJS, Angular, Google Cloud Platform, and more. I create awesome solutions that help make people's daily lives easier, I continuously pursue more skills and I share my knowledge a cross blogs and communities.
-</p>
-
-<p align='center'>
-    Also, I'm Community Lead at <strong><a href="https://dsc.community.dev/platzi-mexico-city/">Developer Student Clubs Platzi Mexico City</a></strong> and a co-organizer at <strong><a href="https://gdg.community.dev/gdg-cloud-mexico-city/">Google Developer Group Cloud Mexico City</a></strong>
+   I am  a fullstack software developer, well-versed in technologies like Javascript, React, NodeJS and more. I like to create solutions and teach people about new technologies, and I continuously improve my skills and use to share my knowledge a cross blogs and communities.
 </p>
 
 <p align='center'>
