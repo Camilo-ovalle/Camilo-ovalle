@@ -37,6 +37,8 @@
   <img src="https://img.shields.io/badge/github%20-%23000.svg?&style=for-the-badge&logo=github&logoColor=white" />&nbsp;&nbsp;
   <img src="https://img.shields.io/badge/mongodb%20-%2358aa50.svg?&style=for-the-badge&logo=mongodb&logoColor=white" />&nbsp;&nbsp;
   <img src="https://img.shields.io/badge/docker%20-%232496ED.svg?&style=for-the-badge&logo=docker&logoColor=white" />&nbsp;&nbsp;
+  <img src="https://img.shields.io/badge/Tailwind-logo?style=for-the-badge&logo=tailwindcss&logoColor=white&color=%230ea5e9
+" />&nbsp;&nbsp;
 </p>
 
 <hr>
@@ -47,35 +49,9 @@
 <p>CRUD app built with React and work with NodeJS, Express and MySql. App have Routers to redirect or navigate to others sections. Also it's hosted by Railway and one API deployed in Fly.io. <br>
 <a href="https://github.com/Camilo-ovalle/LgTeslap-Frontend.git">Frontend here</a>&nbsp;| <a href="https://github.com/Camilo-ovalle/LgTeslap-Frontend.git">Backend here</a></p>
 
-<h4><a href="https://github.com/Camilo-ovalle/Qurious-Blog.git">🚀 Dev-Gate blog</a></h4>
+<h4><a href="https://github.com/Camilo-ovalle/Qurious-Blog.git">Dev🚀Gate</a></h4>
 <p>A tech blog created with Astro js and Netlify.<br>
 <a href="https://github.com/dfloresdev/personal-blog">Repository here</a></p>
 
-<h5><a href="https://dfloresdev.github.io/rick-and-morty/">🙋‍♂️ Rick and Morty</a></h5>
-<p>Javascript project, calling a API Rick and Morty and show data in the client.<br>
-<a href="https://github.com/dfloresdev/rick-and-morty">Repository here</a></p>
-
-<h5><a href="https://dfloresdev.github.io/basic-landing-page/">📃 Basic Landing Page</a></h5>
-<p>Simple responsive Landing Page<br>
-<a href="https://github.com/dfloresdev/basic-landing-page">Repository here</a></p>
-
-<h5><a href="https://thespianartist-33a0a.web.app/">📃 Thespianartist Portfolio</a></h5>
-<p>Collaboration with UI/UX Designer, I created your portfolio in React<br>
-<a href="https://github.com/dfloresdev/thespianartist-portfolio">Repository here</a></p>
-
-<h5><a href="https://marvel-4d6ytbdwza-uc.a.run.app/">🏆 Marvel</a></h5>
-<p>In this app you can see a superheros and they collaborators, this app have two services<br>
-<a href="https://github.com/dfloresdev/marvel_connections">Repository here</a></p>
-
 <hr>
 
-<h4>👨‍🔬&nbsp;&nbsp;&nbsp;Open Source</h4>
-<h5><a href="https://www.npmjs.com/package/@dfloresdev/google-storage-ghost">Ghost + Google Cloud Storage 👻☁️</a></h5>
-<p>Adaptor for Google Cloud Storage and Ghost
-<br>
-<a href="https://github.com/dfloresdev/google-storage-ghost">Repository here</a></p>
-
-<h5><a href="https://youtu.be/2jW9AeibcI8">📰 Docker, Ghost and Cloud Storage</a></h5>
-<p>Run Ghost in Google Cloud Platform
-<br>
-<a href="https://github.com/dfloresdev/docker-ghost-cloud-storage">Repository here</a></p>
