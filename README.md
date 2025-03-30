@@ -1,4 +1,3 @@
-
 <h1 align='center'>Hi there  👋, I'm Camilo Ovalle 🧑‍💻</h1>
 
 <p align='center'>
@@ -15,7 +14,9 @@
 
 <hr>
 
-<h3>🛠️ My Development skill set</h4>
+<h3>🛠️ My Development skill set</h3>
+
+<h4>Frontend</h4>
 <p >
   <img src="https://img.shields.io/badge/html5%20-%23e34f26.svg?&style=for-the-badge&logo=html5&logoColor=white" />&nbsp;&nbsp;
   <img src="https://img.shields.io/badge/css3%20-%231572B6.svg?&style=for-the-badge&logo=css3&logoColor=white" />&nbsp;&nbsp;
@@ -46,4 +47,3 @@
 <a href="https://github.com/Camilo-ovalle/Qurious-Blog.git">Repository here</a></p>
 
 <hr>
-
