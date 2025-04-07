@@ -1,7 +1,13 @@
 <h1 align='center'>Hi there  👋, I'm Camilo Ovalle 🧑‍💻</h1>
 
 <p align='center'>
-   I am  a fullstack software developer, versed in technologies like Javascript, React, NodeJS and more. I like to create solutions and teach people about new technologies, and I continuously improve my skills and use to share my knowledge a cross blogs and communities.
+I’m a Full Stack Developer currently studying Software Engineering, passionate about building functional and scalable tech solutions. Through personal projects like Dev-Gate, a technology blog I built from scratch, I’ve applied tools such as React, Astro, Express, Docker, and agile practices like Extreme Programming.
+</p>
+<p align='center'>
+I thrive on clear communication, teamwork, and leadership. My ability to explain technical concepts led to an invitation to teach a Git and GitHub course at my university. I love sharing knowledge, solving challenges, and growing alongside others.
+</p>
+<p align='center'>
+📩 Let’s connect!
 </p>
 
 <p align='center'>
@@ -37,10 +43,6 @@
 <hr>
 
 <h3>👨‍💻&nbsp;&nbsp;&nbsp;My Projects</h3>
-
-<h4><a href="https://github.com/Camilo-ovalle/LgTeslap-Frontend.git">💻 LgTeslap service manager</a></h4>
-<p>CRUD app built with React and work with NodeJS, Express and MySql. App have Routers to redirect or navigate to others sections. Also it's hosted by Railway and one API deployed in Fly.io. <br>
-<a href="https://github.com/Camilo-ovalle/LgTeslap-Frontend.git">Frontend here</a>&nbsp;| <a href="https://github.com/Camilo-ovalle/LgTeslap-Frontend.git">Backend here</a></p>
 
 <h4><a href="https://dev-gate.netlify.app/">Dev🚀Gate</a></h4>
 <p>A tech blog created with Astro js and Netlify.<br>
