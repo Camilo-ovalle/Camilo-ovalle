@@ -1,0 +1,97 @@
+% cv-style.sty — Shared style for Camilo Ovalle's CV variants
+% Compatible with pdflatex. Requires: geometry, titlesec, enumitem,
+%   hyperref, fontawesome5, xcolor, parskip, microtype, lmodern
+
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{cv-style}[2026/06/11 Camilo Ovalle CV shared style]
+
+% ── Packages ─────────────────────────────────────────────────────────────────
+\RequirePackage[T1]{fontenc}
+\RequirePackage{lmodern}
+\RequirePackage{microtype}
+\RequirePackage[
+  top=0.55in, bottom=0.55in,
+  left=0.65in, right=0.65in
+]{geometry}
+\RequirePackage{parskip}          % space between paragraphs instead of indent
+\RequirePackage{xcolor}
+\RequirePackage{hyperref}
+\RequirePackage{fontawesome5}
+\RequirePackage{enumitem}
+\RequirePackage{titlesec}
+\RequirePackage{array}
+\RequirePackage{tabularx}
+
+% ── Colors ───────────────────────────────────────────────────────────────────
+\definecolor{cvblue}{HTML}{1A56DB}    % accent for links and icons
+\definecolor{cvgray}{HTML}{555555}    % secondary text
+\definecolor{cvrule}{HTML}{CCCCCC}    % section rule
+
+% ── Hyperref setup ───────────────────────────────────────────────────────────
+\hypersetup{
+  colorlinks=true,
+  urlcolor=cvblue,
+  linkcolor=cvblue,
+  pdfborder={0 0 0}
+}
+
+% ── Section headings ─────────────────────────────────────────────────────────
+% Bold, small caps, with a full-width rule underneath
+\titleformat{\section}
+  {\large\bfseries\scshape}
+  {}
+  {0em}
+  {}
+  [\color{cvrule}\titlerule]
+
+\titlespacing{\section}{0pt}{8pt}{4pt}
+
+% ── List style ───────────────────────────────────────────────────────────────
+\setlist[itemize]{
+  leftmargin=1.5em,
+  itemsep=1pt,
+  parsep=0pt,
+  topsep=2pt
+}
+
+% ── Commands ─────────────────────────────────────────────────────────────────
+
+% \cvheader{name}{headline}{contact line 1}{contact line 2}
+\newcommand{\cvheader}[4]{%
+  \begin{center}
+    {\LARGE\bfseries #1}\\[3pt]
+    {\large\color{cvgray} #2}\\[5pt]
+    {\small #3}\\[1pt]
+    {\small #4}
+  \end{center}
+  \vspace{2pt}
+}
+
+% \cventry{Job Title}{Company}{Date range}
+\newcommand{\cventry}[3]{%
+  \noindent
+  \textbf{#1} \hfill {\color{cvgray}\textit{#3}}\\
+  {\color{cvgray}\textit{#2}}
+  \vspace{2pt}
+}
+
+% \cvproject{Project Name | Tech}{URL (can be empty)}
+\newcommand{\cvproject}[2]{%
+  \noindent
+  \textbf{\underline{#1}}%
+  \ifx&#2&\else\quad{\small\color{cvgray}\href{#2}{#2}}\fi
+  \vspace{2pt}
+}
+
+% \cveducation{Degree}{Institution}{Date range}
+\newcommand{\cveducation}[3]{%
+  \noindent
+  \textbf{#1} \hfill {\color{cvgray}\textit{#3}}\\
+  {\color{cvgray}\textit{#2}}
+  \vspace{2pt}
+}
+
+% \cvskillrow{Category}{Skills}
+\newcommand{\cvskillrow}[2]{%
+  \noindent\textbf{#1:} #2\\[2pt]
+}

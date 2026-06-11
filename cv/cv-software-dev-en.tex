@@ -1,0 +1,117 @@
+% ─────────────────────────────────────────────────────────────────────────────
+%  Camilo Enrique Ovalle Ceron — CV  |  Focus: Software Engineer / Full Stack
+%  Language: English  |  Compile: pdflatex cv-software-dev-en.tex
+% ─────────────────────────────────────────────────────────────────────────────
+\documentclass[10pt]{article}
+\usepackage{cv-style}
+\pagestyle{empty}   % no page numbers
+
+\begin{document}
+
+% ── HEADER ───────────────────────────────────────────────────────────────────
+\cvheader
+  {Camilo Enrique Ovalle Ceron}
+  {Software Engineer \textbar{} Full Stack Developer}
+  {%
+    \faLinkedin~\href{https://linkedin.com/in/camilo-ovalle}{linkedin.com/in/camilo-ovalle}
+    \quad\textbar\quad
+    \faGithub~\href{https://github.com/Camilo-ovalle}{github.com/Camilo-ovalle}
+    \quad\textbar\quad
+    \faEnvelope~\href{mailto:camilo.enrique.ovalle@gmail.com}{camilo.enrique.ovalle@gmail.com}
+  }
+  {%
+    \faPhone~+57 319-296-6892
+    \quad\textbar\quad
+    \faMapMarker*~Bogotá, Colombia
+  }
+
+% ── SUMMARY ──────────────────────────────────────────────────────────────────
+\section{Summary}
+
+Full Stack Developer with 3+ years of software engineering experience building production-grade
+automation tools and web applications. Proven ability to design, develop, and deploy solutions
+(JavaScript, TypeScript, Python, React, Node.js, Docker) that directly improve operational
+efficiency — including a network diagnostic tool that reduced critical-incident logging time by
+\textbf{83\%}. Currently pursuing a Software Engineering degree (7th semester) with hands-on
+exposure to cloud platforms (AWS, Azure, GCP) and CI/CD pipelines.
+
+% ── TECHNICAL SKILLS ─────────────────────────────────────────────────────────
+\section{Technical Skills}
+
+\cvskillrow{Languages}{JavaScript · TypeScript · Python}
+\cvskillrow{Frontend}{React.js · Next.js · Astro.js · Tailwind CSS · HTML5 · CSS3}
+\cvskillrow{Backend}{Node.js · Express.js · REST APIs}
+\cvskillrow{DevOps \& Cloud}{Docker · Git · CI/CD · AWS · Azure · GCP · Linux · WSL}
+\cvskillrow{Databases}{PostgreSQL · MySQL · MongoDB · SQL}
+\cvskillrow{Tools \& Other}{Power BI · Excel · Agile/XP · English B2}
+
+% ── EXPERIENCE ───────────────────────────────────────────────────────────────
+\section{Experience}
+
+\cventry{Software Engineer \& Sr. IT Support Specialist}{Sutherland SGS}{May 2024 -- present}
+\begin{itemize}
+  \item Designed and developed \textbf{NDT\_tool}, a Windows automation tool (CMD/Python) that
+        runs network diagnostics (ping, tracert, nslookup) and generates structured log reports —
+        \textbf{reducing P1-incident data-collection time from 30 to 5 minutes (83\% faster)};
+        deployed internally across the team.
+  \item Built \textbf{Tab-Limiter}, a Chromium browser extension (JavaScript/HTML/CSS) that
+        restricts open tabs/windows to reduce RAM, CPU, and GPU consumption on production
+        workstations; \textbf{approved for operational implementation}.
+  \item Served as primary IT Point of Contact (POC) for 2 strategic client campaigns: managed
+        stakeholder communication, coordinated software rollouts, and mitigated security risks.
+\end{itemize}
+
+\vspace{4pt}
+
+\cventry{Team Manager}{Intouch CX}{Aug 2022 -- May 2024}
+\begin{itemize}
+  \item Selected for high performance to represent the Service Delivery team in client-facing
+        follow-up meetings.
+  \item Mentored and upskilled team members on technical processes and support procedures,
+        improving overall team performance and reducing escalation rates.
+\end{itemize}
+
+% ── PERSONAL PROJECTS ────────────────────────────────────────────────────────
+\section{Personal Projects}
+
+\cvproject{Dev-Gate — Tech Blog \textbar{} Astro.js, Netlify}{https://dev-gate.netlify.app/}
+\begin{itemize}
+  \item Built a full tech blog from scratch using Astro.js with static-site generation, deployed
+        on Netlify with continuous deployment from GitHub.
+  \item \href{https://github.com/Camilo-ovalle/Qurious-Blog}{Repository: github.com/Camilo-ovalle/Qurious-Blog}
+\end{itemize}
+
+\vspace{4pt}
+
+\cvproject{NDT\_tool — Network Diagnostic Tool \textbar{} CMD, Python, Windows}{https://nw-tool.netlify.app/}
+\begin{itemize}
+  \item Automation tool for Windows that collects network diagnostics (ping, tracert, nslookup,
+        etc.) on a single command and exports timestamped reports for P1 incident analysis.
+\end{itemize}
+
+\vspace{4pt}
+
+\cvproject{Tab-Limiter — Chrome Extension \textbar{} JavaScript, HTML/CSS}{}
+\begin{itemize}
+  \item Chromium extension that enforces a configurable tab/window limit to protect RAM, CPU,
+        and GPU on resource-limited workstations in production BPO environments.
+\end{itemize}
+
+% ── EDUCATION ────────────────────────────────────────────────────────────────
+\section{Education}
+
+\cveducation{B.Eng. Software Engineering}{Compensar University Foundation}{Jan 2025 -- present}
+\begin{itemize}
+  \item 7th semester · Relevant coursework: Data Structures, Algorithms, Software Architecture,
+        Databases, Operating Systems.
+\end{itemize}
+
+\vspace{4pt}
+
+\cveducation{DevOps Certificate}{Universidad Javeriana}{Dec 2025 -- Feb 2026}
+
+\vspace{4pt}
+
+\cveducation{Mechatronics Technologist}{SENA}{Jan 2017 -- Dec 2019}
+
+\end{document}

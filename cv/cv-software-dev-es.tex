@@ -1,0 +1,120 @@
+% ─────────────────────────────────────────────────────────────────────────────
+%  Camilo Enrique Ovalle Ceron — Hoja de Vida  |  Enfoque: Ingeniero de Software
+%  Idioma: Español  |  Compilar: pdflatex cv-software-dev-es.tex
+% ─────────────────────────────────────────────────────────────────────────────
+\documentclass[10pt]{article}
+\usepackage[spanish]{babel}
+\usepackage{cv-style}
+\pagestyle{empty}
+
+\begin{document}
+
+% ── ENCABEZADO ───────────────────────────────────────────────────────────────
+\cvheader
+  {Camilo Enrique Ovalle Cerón}
+  {Ingeniero de Software \textbar{} Desarrollador Full Stack}
+  {%
+    \faLinkedin~\href{https://linkedin.com/in/camilo-ovalle}{linkedin.com/in/camilo-ovalle}
+    \quad\textbar\quad
+    \faGithub~\href{https://github.com/Camilo-ovalle}{github.com/Camilo-ovalle}
+    \quad\textbar\quad
+    \faEnvelope~\href{mailto:camilo.enrique.ovalle@gmail.com}{camilo.enrique.ovalle@gmail.com}
+  }
+  {%
+    \faPhone~+57 319-296-6892
+    \quad\textbar\quad
+    \faMapMarker*~Bogotá, Colombia
+  }
+
+% ── PERFIL PROFESIONAL ───────────────────────────────────────────────────────
+\section{Perfil Profesional}
+
+Desarrollador Full Stack con más de 3 años de experiencia construyendo herramientas de
+automatización y aplicaciones web en entornos de alta disponibilidad. Capacidad demostrada
+para diseñar, desarrollar y desplegar soluciones en producción (JavaScript, TypeScript,
+Python, React, Node.js, Docker) que mejoran la eficiencia operativa — incluyendo una
+herramienta de diagnóstico de red que redujo el tiempo de captura de logs en incidentes
+críticos en un \textbf{83\%}. Actualmente cursando Ingeniería de Software (7° semestre) con
+exposición práctica a plataformas cloud (AWS, Azure, GCP) y pipelines de CI/CD.
+
+% ── HABILIDADES TÉCNICAS ─────────────────────────────────────────────────────
+\section{Habilidades Técnicas}
+
+\cvskillrow{Lenguajes}{JavaScript · TypeScript · Python}
+\cvskillrow{Frontend}{React.js · Next.js · Astro.js · Tailwind CSS · HTML5 · CSS3}
+\cvskillrow{Backend}{Node.js · Express.js · APIs REST}
+\cvskillrow{DevOps y Cloud}{Docker · Git · CI/CD · AWS · Azure · GCP · Linux · WSL}
+\cvskillrow{Bases de datos}{PostgreSQL · MySQL · MongoDB · SQL}
+\cvskillrow{Otras herramientas}{Power BI · Excel · Metodologías Ágiles · Inglés B2}
+
+% ── EXPERIENCIA ──────────────────────────────────────────────────────────────
+\section{Experiencia}
+
+\cventry{Ingeniero de Software y Especialista IT Sr.}{Sutherland SGS}{May. 2024 -- actualidad}
+\begin{itemize}
+  \item Diseñó y desarrolló \textbf{NDT\_tool}, una herramienta de automatización para Windows
+        (CMD/Python) que ejecuta diagnósticos de red (ping, tracert, nslookup) y genera reportes
+        estructurados de logs — \textbf{reduciendo el tiempo de recolección de datos en incidentes P1
+        de 30 a 5 minutos (83\% más rápido)}; desplegada internamente en el equipo.
+  \item Construyó \textbf{Tab-Limiter}, una extensión para Chromium (JavaScript/HTML/CSS) que
+        limita las pestañas y ventanas abiertas para reducir el consumo de RAM, CPU y GPU en
+        estaciones de trabajo de producción; \textbf{aprobada e implementada operacionalmente}.
+  \item Actuó como Punto de Contacto IT principal para 2 campañas cliente estratégicas:
+        coordinó despliegues de software, gestionó comunicación con stakeholders y mitigó
+        riesgos de seguridad.
+\end{itemize}
+
+\vspace{4pt}
+
+\cventry{Team Manager}{Intouch CX}{Ago. 2022 -- May. 2024}
+\begin{itemize}
+  \item Seleccionado por alto rendimiento para representar al equipo de Entrega de Servicios en
+        reuniones de seguimiento con clientes.
+  \item Capacitó y mentoreó a los integrantes del equipo en procesos técnicos y procedimientos
+        de soporte, mejorando el desempeño general y reduciendo las escalaciones.
+\end{itemize}
+
+% ── PROYECTOS PERSONALES ─────────────────────────────────────────────────────
+\section{Proyectos Personales}
+
+\cvproject{Dev-Gate — Blog de Tecnología \textbar{} Astro.js, Netlify}{https://dev-gate.netlify.app/}
+\begin{itemize}
+  \item Blog tecnológico construido desde cero con Astro.js (generación de sitios estáticos),
+        desplegado en Netlify con integración y despliegue continuo desde GitHub.
+  \item \href{https://github.com/Camilo-ovalle/Qurious-Blog}{Repositorio: github.com/Camilo-ovalle/Qurious-Blog}
+\end{itemize}
+
+\vspace{4pt}
+
+\cvproject{NDT\_tool — Herramienta de Diagnóstico de Red \textbar{} CMD, Python}{https://nw-tool.netlify.app/}
+\begin{itemize}
+  \item Herramienta de automatización para Windows que ejecuta diagnósticos de red con un solo
+        comando y exporta reportes con marca de tiempo para el análisis de incidentes P1.
+\end{itemize}
+
+\vspace{4pt}
+
+\cvproject{Tab-Limiter — Extensión Chrome \textbar{} JavaScript, HTML/CSS}{}
+\begin{itemize}
+  \item Extensión Chromium que aplica un límite configurable de pestañas y ventanas para
+        proteger la RAM, CPU y GPU en entornos BPO con recursos limitados.
+\end{itemize}
+
+% ── EDUCACIÓN ────────────────────────────────────────────────────────────────
+\section{Educación}
+
+\cveducation{Ingeniería de Software}{Fundación Universitaria Compensar}{Ene. 2025 -- actualidad}
+\begin{itemize}
+  \item 7.º semestre · Materias relevantes: Estructuras de Datos, Algoritmos, Arquitectura de
+        Software, Bases de Datos, Sistemas Operativos.
+\end{itemize}
+
+\vspace{4pt}
+
+\cveducation{Certificado en DevOps}{Universidad Javeriana}{Dic. 2025 -- Feb. 2026}
+
+\vspace{4pt}
+
+\cveducation{Tecnólogo en Mecatrónica}{SENA}{Ene. 2017 -- Dic. 2019}
+
+\end{document}

@@ -1,0 +1,118 @@
+% ─────────────────────────────────────────────────────────────────────────────
+%  Camilo Enrique Ovalle Ceron — CV  |  Focus: Full Stack Developer + IT Ops (Hybrid)
+%  Language: English  |  Compile: pdflatex cv-hybrid-en.tex
+% ─────────────────────────────────────────────────────────────────────────────
+\documentclass[10pt]{article}
+\usepackage{cv-style}
+\pagestyle{empty}
+
+\begin{document}
+
+% ── HEADER ───────────────────────────────────────────────────────────────────
+\cvheader
+  {Camilo Enrique Ovalle Ceron}
+  {Full Stack Developer \textbar{} IT Operations Specialist \textbar{} DevOps}
+  {%
+    \faLinkedin~\href{https://linkedin.com/in/camilo-ovalle}{linkedin.com/in/camilo-ovalle}
+    \quad\textbar\quad
+    \faGithub~\href{https://github.com/Camilo-ovalle}{github.com/Camilo-ovalle}
+    \quad\textbar\quad
+    \faEnvelope~\href{mailto:camilo.enrique.ovalle@gmail.com}{camilo.enrique.ovalle@gmail.com}
+  }
+  {%
+    \faPhone~+57 319-296-6892
+    \quad\textbar\quad
+    \faMapMarker*~Bogotá, Colombia
+  }
+
+% ── SUMMARY ──────────────────────────────────────────────────────────────────
+\section{Summary}
+
+Software Engineer and IT Operations Specialist with 3+ years of experience bridging
+development and infrastructure in high-availability BPO environments. Builds automation
+tools and web applications (JavaScript, TypeScript, Python, React, Node.js, Docker)
+while managing enterprise infrastructure (Active Directory, GPO, Cisco Security,
+incident management). Delivered a network-diagnostic automation tool that reduced
+P1-incident logging time by \textbf{83\%}. Holds a DevOps certificate from Universidad
+Javeriana and is pursuing a Software Engineering degree (7th semester).
+
+% ── TECHNICAL SKILLS ─────────────────────────────────────────────────────────
+\section{Technical Skills}
+
+\cvskillrow{Software Development}{JavaScript · TypeScript · Python · React.js · Next.js · Astro.js · Node.js · Express.js · Tailwind CSS}
+\cvskillrow{DevOps \& Cloud}{AWS · Azure · GCP · Docker · Git · CI/CD · GitHub Actions · Linux · WSL}
+\cvskillrow{Databases}{PostgreSQL · MySQL · MongoDB · SQL}
+\cvskillrow{IT \& Infrastructure}{Active Directory (AD) · GPO · Cybersecurity (Cisco) · Incident Management · Technical Support}
+\cvskillrow{Tools \& Soft Skills}{Power BI · Excel · English B2 · Leadership · Agile/XP}
+
+% ── EXPERIENCE ───────────────────────────────────────────────────────────────
+\section{Experience}
+
+\cventry{Sr. IT Support Specialist}{Sutherland SGS}{May 2024 -- present}
+\begin{itemize}
+  \item Developed \textbf{NDT\_tool}, a Windows automation tool (CMD/Python) that runs
+        network diagnostics and auto-exports structured log reports for P1 incidents —
+        \textbf{cutting data-collection time from 30 to 5 minutes (83\% reduction)};
+        deployed internally across the team.
+  \item Built \textbf{Tab-Limiter}, a Chromium browser extension (JavaScript/HTML/CSS)
+        to restrict open tabs and reduce RAM/CPU/GPU usage on production workstations;
+        \textbf{approved for operational implementation}.
+  \item Primary IT Point of Contact (POC) for 2 strategic client campaigns: managed
+        software deployments, stakeholder communication, and security risk mitigation.
+  \item Administered Active Directory (AD/GPO) policies and handled enterprise-level
+        incident management across high-availability client environments.
+\end{itemize}
+
+\vspace{4pt}
+
+\cventry{Team Manager}{Intouch CX}{Aug 2022 -- May 2024}
+\begin{itemize}
+  \item Selected for high performance to represent the Service Delivery team in
+        client-facing follow-up meetings with strategic accounts.
+  \item Mentored and trained team members on technical support workflows and
+        customer service procedures, enhancing team skill level and reducing escalations.
+\end{itemize}
+
+% ── PERSONAL PROJECTS ────────────────────────────────────────────────────────
+\section{Personal Projects}
+
+\cvproject{NDT\_tool — Network Diagnostic Tool \textbar{} CMD, Python, Windows}{https://nw-tool.netlify.app/}
+\begin{itemize}
+  \item Windows automation tool that executes a full suite of network diagnostics
+        (ping, tracert, nslookup, etc.) in one command and saves timestamped reports for
+        rapid analysis during P1 incidents. Reduced manual logging time by 83\%.
+\end{itemize}
+
+\vspace{4pt}
+
+\cvproject{Tab-Limiter — Chrome Extension \textbar{} JavaScript, HTML/CSS}{}
+\begin{itemize}
+  \item Chromium extension enforcing configurable tab/window limits to protect hardware
+        resources on constrained BPO workstations. Approved and deployed in production.
+\end{itemize}
+
+\vspace{4pt}
+
+\cvproject{Dev-Gate — Tech Blog \textbar{} Astro.js, Netlify}{https://dev-gate.netlify.app/}
+\begin{itemize}
+  \item Full tech blog built with Astro.js and deployed on Netlify with CD from GitHub.
+        \href{https://github.com/Camilo-ovalle/Qurious-Blog}{Repository: github.com/Camilo-ovalle/Qurious-Blog}
+\end{itemize}
+
+% ── EDUCATION ────────────────────────────────────────────────────────────────
+\section{Education}
+
+\cveducation{B.Eng. Software Engineering}{Compensar University Foundation}{Jan 2025 -- present}
+\begin{itemize}
+  \item 7th semester · Relevant: Data Structures, Algorithms, Software Architecture, Databases.
+\end{itemize}
+
+\vspace{4pt}
+
+\cveducation{DevOps Certificate}{Universidad Javeriana}{Dec 2025 -- Feb 2026}
+
+\vspace{4pt}
+
+\cveducation{Mechatronics Technologist}{SENA}{Jan 2017 -- Dec 2019}
+
+\end{document}
