@@ -1,97 +1,82 @@
 % cv-style.sty — Shared style for Camilo Ovalle's CV variants
-% Compatible with pdflatex. Requires: geometry, titlesec, enumitem,
-%   hyperref, fontawesome5, xcolor, parskip, microtype, lmodern
+% Paper: legal (8.5" × 14") — fits all content on one page
+% Compatible with pdflatex.
 
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesPackage{cv-style}[2026/06/11 Camilo Ovalle CV shared style]
+\ProvidesPackage{cv-style}[2026/06/12 Camilo Ovalle CV shared style]
 
 % ── Packages ─────────────────────────────────────────────────────────────────
 \RequirePackage[T1]{fontenc}
-\RequirePackage{lmodern}
+\RequirePackage[scaled=0.93]{helvet}   % Helvetica ≈ Arial, clean sans-serif
+\renewcommand{\familydefault}{\sfdefault}
 \RequirePackage{microtype}
 \RequirePackage[
-  top=0.55in, bottom=0.55in,
-  left=0.65in, right=0.65in
+  legal,
+  top=0.45in, bottom=0.45in,
+  left=0.60in, right=0.60in
 ]{geometry}
-\RequirePackage{parskip}          % space between paragraphs instead of indent
+\RequirePackage{parskip}
 \RequirePackage{xcolor}
 \RequirePackage{hyperref}
 \RequirePackage{fontawesome5}
 \RequirePackage{enumitem}
 \RequirePackage{titlesec}
-\RequirePackage{array}
-\RequirePackage{tabularx}
 
 % ── Colors ───────────────────────────────────────────────────────────────────
-\definecolor{cvblue}{HTML}{1A56DB}    % accent for links and icons
-\definecolor{cvgray}{HTML}{555555}    % secondary text
-\definecolor{cvrule}{HTML}{CCCCCC}    % section rule
+\definecolor{cvblue}{HTML}{1A56DB}
+\definecolor{cvgray}{HTML}{555555}
+\definecolor{cvrule}{HTML}{CCCCCC}
 
-% ── Hyperref setup ───────────────────────────────────────────────────────────
-\hypersetup{
-  colorlinks=true,
-  urlcolor=cvblue,
-  linkcolor=cvblue,
-  pdfborder={0 0 0}
-}
+% ── Hyperref ─────────────────────────────────────────────────────────────────
+\hypersetup{colorlinks=true, urlcolor=cvblue, linkcolor=cvblue, pdfborder={0 0 0}}
 
-% ── Section headings ─────────────────────────────────────────────────────────
-% Bold, small caps, with a full-width rule underneath
-\titleformat{\section}
-  {\large\bfseries\scshape}
-  {}
-  {0em}
-  {}
-  [\color{cvrule}\titlerule]
-
-\titlespacing{\section}{0pt}{8pt}{4pt}
+% ── Section headings — rule with breathing room below ────────────────────────
+\titleformat{\section}{\large\bfseries\scshape}{}{0em}{}[\color{cvrule}\titlerule]
+\titlespacing{\section}{0pt}{8pt}{7pt}
 
 % ── List style ───────────────────────────────────────────────────────────────
-\setlist[itemize]{
-  leftmargin=1.5em,
-  itemsep=1pt,
-  parsep=0pt,
-  topsep=2pt
-}
+\setlist[itemize]{leftmargin=1.4em, itemsep=0pt, parsep=0pt, topsep=2pt}
+
+% ── parskip override ─────────────────────────────────────────────────────────
+\setlength{\parskip}{0pt}
 
 % ── Commands ─────────────────────────────────────────────────────────────────
 
-% \cvheader{name}{headline}{contact line 1}{contact line 2}
-\newcommand{\cvheader}[4]{%
+% \cvheader{name}{headline}{contact — use \\ to split lines}
+\newcommand{\cvheader}[3]{%
   \begin{center}
-    {\LARGE\bfseries #1}\\[3pt]
-    {\large\color{cvgray} #2}\\[5pt]
-    {\small #3}\\[1pt]
-    {\small #4}
+    {\LARGE\bfseries #1}\\[2pt]
+    {\large\color{cvgray} #2}\\[4pt]
+    {\small #3}
   \end{center}
-  \vspace{2pt}
+  \vspace{1pt}
 }
 
 % \cventry{Job Title}{Company}{Date range}
 \newcommand{\cventry}[3]{%
   \noindent
-  \textbf{#1} \hfill {\color{cvgray}\textit{#3}}\\
+  \textbf{#1} \hfill {\color{cvgray}\textit{#3}}\\[-2pt]
   {\color{cvgray}\textit{#2}}
-  \vspace{2pt}
+  \vspace{1pt}
 }
 
-% \cvproject{Project Name | Tech}{URL (can be empty)}
+% \cvproject{Project Name | Tech}{URL}  — no underline
 \newcommand{\cvproject}[2]{%
   \noindent
-  \textbf{\underline{#1}}%
+  \textbf{#1}%
   \ifx&#2&\else\quad{\small\color{cvgray}\href{#2}{#2}}\fi
-  \vspace{2pt}
+  \vspace{1pt}
 }
 
 % \cveducation{Degree}{Institution}{Date range}
 \newcommand{\cveducation}[3]{%
   \noindent
-  \textbf{#1} \hfill {\color{cvgray}\textit{#3}}\\
+  \textbf{#1} \hfill {\color{cvgray}\textit{#3}}\\[-2pt]
   {\color{cvgray}\textit{#2}}
-  \vspace{2pt}
+  \vspace{1pt}
 }
 
 % \cvskillrow{Category}{Skills}
 \newcommand{\cvskillrow}[2]{%
-  \noindent\textbf{#1:} #2\\[2pt]
+  \noindent\textbf{#1:} #2\\[1pt]
 }

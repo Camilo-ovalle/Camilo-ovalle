@@ -4,7 +4,7 @@
 % ─────────────────────────────────────────────────────────────────────────────
 \documentclass[10pt]{article}
 \usepackage{cv-style}
-\pagestyle{empty}   % no page numbers
+\pagestyle{empty}
 
 \begin{document}
 
@@ -13,27 +13,76 @@
   {Camilo Enrique Ovalle Ceron}
   {Software Engineer \textbar{} Full Stack Developer}
   {%
-    \faLinkedin~\href{https://linkedin.com/in/camilo-ovalle}{linkedin.com/in/camilo-ovalle}
-    \quad\textbar\quad
-    \faGithub~\href{https://github.com/Camilo-ovalle}{github.com/Camilo-ovalle}
-    \quad\textbar\quad
-    \faEnvelope~\href{mailto:camilo.enrique.ovalle@gmail.com}{camilo.enrique.ovalle@gmail.com}
-  }
-  {%
-    \faPhone~+57 319-296-6892
-    \quad\textbar\quad
-    \faMapMarker*~Bogotá, Colombia
+    \faLinkedin~\href{https://linkedin.com/in/camilo-ovalle}{linkedin.com/in/camilo-ovalle}~|~%
+    \faGithub~\href{https://github.com/Camilo-ovalle}{github.com/Camilo-ovalle}~|~%
+    \faEnvelope~\href{mailto:camilo.enrique.ovalle@gmail.com}{camilo.enrique.ovalle@gmail.com}~|~%
+    \faPhone~+57\,319-296-6892~|~%
+    \faMapMarker*~Bogotá, Colombia%
   }
 
 % ── SUMMARY ──────────────────────────────────────────────────────────────────
 \section{Summary}
 
-Full Stack Developer with 3+ years of software engineering experience building production-grade
-automation tools and web applications. Proven ability to design, develop, and deploy solutions
-(JavaScript, TypeScript, Python, React, Node.js, Docker) that directly improve operational
-efficiency — including a network diagnostic tool that reduced critical-incident logging time by
-\textbf{83\%}. Currently pursuing a Software Engineering degree (7th semester) with hands-on
-exposure to cloud platforms (AWS, Azure, GCP) and CI/CD pipelines.
+Software Engineer with 3+ years bridging IT Operations and software development in
+enterprise environments. Built and shipped automations that cut critical incident response
+time by 83\%, improved hardware resource efficiency across production environments by developing software solutions, and
+led team to measurable performance improvements. Looking to grow in a full-stack
+engineering role where I can keep solving real problems through code.
+
+% ── EXPERIENCE ───────────────────────────────────────────────────────────────
+\section{Experience}
+
+\cventry{Software Engineer \& Sr. IT Support Specialist}{Sutherland SGS}{May 2024 -- present}
+\begin{itemize}
+      \item Built \& shipped \textbf{Tab Monitor}: Chromium extension
+      live on \href{https://chromewebstore.google.com/detail/tab-monitor/apbgiakfdalcpmnopopopookdceecnfj}{Chrome Web Store}
+      \& \href{https://microsoftedge.microsoft.com/addons/detail/tab-monitor/aidfbccdmjdoloknpoiacciagffokjcb}{Edge Add-ons},
+      deployed to 200+ machines via GPO.
+      \item Built \textbf{NDT\_tool}: automated network diagnostics for P1 incidents;
+      \textbf{reduced data-collection time from 30 to 5 min (83\%)}. Team standard tool.
+      \item IT POC for 3 client programs (\textasciitilde20 tickets/day): software rollouts,
+      stakeholder communication, security risk mitigation.
+\end{itemize}
+
+\vspace{3pt}
+
+\cventry{Team Manager}{Intouch CX}{Aug 2022 -- May 2024}
+\begin{itemize}
+  \item Led \textbf{25 agents}: CSAT \textbf{3.8 → 4.2}, wrap-up time \textbf{10 s → 3 s (70\%
+        reduction)}.
+  \item Onboarded \textbf{80+ new agents} across 4 training waves; represented team in
+        client-facing strategic meetings.
+\end{itemize}
+
+% ── PERSONAL PROJECTS ────────────────────────────────────────────────────────
+\section{Personal Projects}
+
+\cvproject{Tab Monitor - Chromium Extension}{https://camilo-ovalle.github.io/Chrome-Tab-Monitor-Docs/}
+\begin{itemize}
+  \item Chromium extension limiting open tabs to reduce RAM/CPU on production workstations.
+        Chrome \& Edge stores, GPO-deployed to 20+ machines, full CI/CD pipeline.
+\end{itemize}
+
+\vspace{3pt}
+
+\cvproject{NDT\_tool — Network Diagnostic Tool}{}
+\begin{itemize}
+  \item Windows automation tool running a full network diagnostic suite and saving timestamped
+        log reports for P1 analysis. (\textit{Repo coming soon})
+\end{itemize}
+
+% ── EDUCATION ────────────────────────────────────────────────────────────────
+\section{Education}
+
+\cveducation{B.Eng. Software Engineering — 8th semester}{Compensar University Foundation}{Jan 2025 -- present}
+
+\vspace{3pt}
+
+\cveducation{DevOps Certificate}{Universidad Javeriana}{Dec 2025 -- Feb 2026}
+
+\vspace{3pt}
+
+\cveducation{Mechatronics Technologist}{SENA}{Jan 2017 -- Dec 2019}
 
 % ── TECHNICAL SKILLS ─────────────────────────────────────────────────────────
 \section{Technical Skills}
@@ -41,77 +90,8 @@ exposure to cloud platforms (AWS, Azure, GCP) and CI/CD pipelines.
 \cvskillrow{Languages}{JavaScript · TypeScript · Python}
 \cvskillrow{Frontend}{React.js · Next.js · Astro.js · Tailwind CSS · HTML5 · CSS3}
 \cvskillrow{Backend}{Node.js · Express.js · REST APIs}
-\cvskillrow{DevOps \& Cloud}{Docker · Git · CI/CD · AWS · Azure · GCP · Linux · WSL}
-\cvskillrow{Databases}{PostgreSQL · MySQL · MongoDB · SQL}
-\cvskillrow{Tools \& Other}{Power BI · Excel · Agile/XP · English B2}
-
-% ── EXPERIENCE ───────────────────────────────────────────────────────────────
-\section{Experience}
-
-\cventry{Software Engineer \& Sr. IT Support Specialist}{Sutherland SGS}{May 2024 -- present}
-\begin{itemize}
-  \item Designed and developed \textbf{NDT\_tool}, a Windows automation tool (CMD/Python) that
-        runs network diagnostics (ping, tracert, nslookup) and generates structured log reports —
-        \textbf{reducing P1-incident data-collection time from 30 to 5 minutes (83\% faster)};
-        deployed internally across the team.
-  \item Built \textbf{Tab-Limiter}, a Chromium browser extension (JavaScript/HTML/CSS) that
-        restricts open tabs/windows to reduce RAM, CPU, and GPU consumption on production
-        workstations; \textbf{approved for operational implementation}.
-  \item Served as primary IT Point of Contact (POC) for 2 strategic client campaigns: managed
-        stakeholder communication, coordinated software rollouts, and mitigated security risks.
-\end{itemize}
-
-\vspace{4pt}
-
-\cventry{Team Manager}{Intouch CX}{Aug 2022 -- May 2024}
-\begin{itemize}
-  \item Selected for high performance to represent the Service Delivery team in client-facing
-        follow-up meetings.
-  \item Mentored and upskilled team members on technical processes and support procedures,
-        improving overall team performance and reducing escalation rates.
-\end{itemize}
-
-% ── PERSONAL PROJECTS ────────────────────────────────────────────────────────
-\section{Personal Projects}
-
-\cvproject{Dev-Gate — Tech Blog \textbar{} Astro.js, Netlify}{https://dev-gate.netlify.app/}
-\begin{itemize}
-  \item Built a full tech blog from scratch using Astro.js with static-site generation, deployed
-        on Netlify with continuous deployment from GitHub.
-  \item \href{https://github.com/Camilo-ovalle/Qurious-Blog}{Repository: github.com/Camilo-ovalle/Qurious-Blog}
-\end{itemize}
-
-\vspace{4pt}
-
-\cvproject{NDT\_tool — Network Diagnostic Tool \textbar{} CMD, Python, Windows}{https://nw-tool.netlify.app/}
-\begin{itemize}
-  \item Automation tool for Windows that collects network diagnostics (ping, tracert, nslookup,
-        etc.) on a single command and exports timestamped reports for P1 incident analysis.
-\end{itemize}
-
-\vspace{4pt}
-
-\cvproject{Tab-Limiter — Chrome Extension \textbar{} JavaScript, HTML/CSS}{}
-\begin{itemize}
-  \item Chromium extension that enforces a configurable tab/window limit to protect RAM, CPU,
-        and GPU on resource-limited workstations in production BPO environments.
-\end{itemize}
-
-% ── EDUCATION ────────────────────────────────────────────────────────────────
-\section{Education}
-
-\cveducation{B.Eng. Software Engineering}{Compensar University Foundation}{Jan 2025 -- present}
-\begin{itemize}
-  \item 7th semester · Relevant coursework: Data Structures, Algorithms, Software Architecture,
-        Databases, Operating Systems.
-\end{itemize}
-
-\vspace{4pt}
-
-\cveducation{DevOps Certificate}{Universidad Javeriana}{Dec 2025 -- Feb 2026}
-
-\vspace{4pt}
-
-\cveducation{Mechatronics Technologist}{SENA}{Jan 2017 -- Dec 2019}
+\cvskillrow{DevOps \& Cloud}{GitHub Actions · Docker · Git · CI/CD · AWS · Azure · GCP · Linux · WSL}
+\cvskillrow{Databases}{PostgreSQL · MySQL · MongoDB}
+\cvskillrow{Testing \& Other}{Vitest · Power BI · Excel · Agile (XP/Scrum) · EF SET English B2}
 
 \end{document}

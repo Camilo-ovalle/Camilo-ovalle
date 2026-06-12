@@ -72,28 +72,36 @@
   </tr>
 </table>
 
-- 🔧 **Built NDT_tool** — a Windows automation tool (CMD/Python) that runs network diagnostics (ping, tracert, nslookup) and auto-saves logs for P1 incidents; **reduced data-collection time from 30 → 5 minutes** and deployed it internally across the team.
-- 🧩 **Built Tab-Limiter** — a Chromium extension that restricts open tabs/windows to reduce RAM, CPU & GPU usage on agent workstations; approved for operational implementation.
-- 📡 Primary IT Point of Contact (POC) for 2 strategic client campaigns — tracked software deployments, managed stakeholder communication, and mitigated security risks.
+- 🔧 **Built NDT_tool** — Windows automation tool (CMD/Python) that runs network diagnostics and exports structured log reports; **reduced P1 data-collection time from 30 → 5 min (83% faster)**; adopted as team standard.
+- 🧩 **Built & shipped Tab Monitor** — Chromium extension live on Chrome Web Store + Edge Add-ons, deployed to 20+ machines via GPO, with GitHub Actions CI/CD and Vitest tests.
+- 📡 Primary IT POC for 3 client campaigns (~20 tickets/day) — coordinates software rollouts, director-level communication, and security risk mitigation.
 
 <hr>
 
 <h2>🚀 Projects</h2>
 
-<h4><a href="https://dev-gate.netlify.app/">Dev🚀Gate</a></h4>
+<h4><a href="https://chromewebstore.google.com/detail/tab-monitor/apbgiakfdalcpmnopopopookdceecnfj">Tab Monitor</a> — Chrome & Edge Extension</h4>
 <p>
-  Tech blog built from scratch with Astro.js and deployed on Netlify. Covers web development tutorials and good engineering practices.<br>
-  <a href="https://github.com/Camilo-ovalle/Qurious-Blog">📁 Repository</a>
+  Chromium extension (JavaScript / HTML / CSS) that limits open tabs and windows to reduce RAM, CPU and GPU consumption on production workstations.<br>
+  <strong>Published on Chrome Web Store and Microsoft Edge Add-ons</strong> · Deployed to 20+ enterprise machines via GPO · CI/CD with GitHub Actions · Automated tests with Vitest.<br>
+  <a href="https://chromewebstore.google.com/detail/tab-monitor/apbgiakfdalcpmnopopopookdceecnfj">🟡 Chrome Web Store</a>
+  &nbsp;·&nbsp;
+  <a href="https://microsoftedge.microsoft.com/addons/detail/tab-monitor/aidfbccdmjdoloknpoiacciagffokjcb">🔵 Edge Add-ons</a>
+  &nbsp;·&nbsp;
+  <a href="https://camilo-ovalle.github.io/Chrome-Tab-Monitor-Docs/">📄 Docs</a>
 </p>
 
-<h4><a href="https://nw-tool.netlify.app/">NDT_tool — Network Diagnostic Tool</a></h4>
+<h4>NDT_tool — Network Diagnostic Tool</h4>
 <p>
-  Windows automation tool (CMD + PowerShell) that runs network diagnostics during P1 incidents and saves structured log reports. Deployed internally at Sutherland — cut diagnostic logging time by 83%.<br>
+  Windows automation tool (CMD / Python) that runs a full network diagnostic suite (ping, tracert, nslookup) and saves structured log reports for rapid P1 incident analysis.<br>
+  <strong>Reduced diagnostic logging time from 30 → 5 minutes (83% faster)</strong> · Adopted as the team's standard tool at Sutherland.<br>
+  <em>Repository coming soon — cleaning internal sensitive data.</em>
 </p>
 
-<h4>Tab-Limiter — Chrome Extension</h4>
+<h4><a href="https://camilo-ovalle.github.io/sysadmin-labs/">Sysadmin Labs</a></h4>
 <p>
-  Chromium extension (JavaScript / HTML / CSS) that limits open tabs and windows to optimize performance on resource-constrained machines. Approved and deployed in a production BPO environment.
+  Public lab documenting hands-on practice with Active Directory, GPO configuration, user management, and Windows Server administration.<br>
+  <a href="https://camilo-ovalle.github.io/sysadmin-labs/">📁 camilo-ovalle.github.io/sysadmin-labs</a>
 </p>
 
 <hr>
