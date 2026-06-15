@@ -2,9 +2,9 @@
 <h3 align="center">Software Engineer · Full Stack Developer · IT Operations Specialist</h3>
 
 <p align="center">
-  Software Engineer and Full Stack Developer with 3+ years of experience building automation tools and web applications in high-availability environments.<br>
-  Currently studying Software Engineering at Compensar and applying modern dev practices — React, Node.js, Docker, CI/CD — to real production problems.<br>
-  I bridge the gap between development and operations: I <em>build</em> the tools that make systems run better.
+  Software Engineer and Full Stack Developer with 3+ years building automation tools and web applications for high-availability, enterprise environments.<br>
+  I ship production-grade software with modern practices — React, Node.js, Docker, CI/CD — turning operational pain points into measurable results, from automations that cut critical-incident response time by 83% to extensions deployed across enterprise fleets.<br>
+  I work at the intersection of development and operations: I <em>build</em> the tools that make systems run better.
 </p>
 
 <p align="center">
@@ -91,11 +91,11 @@
   <a href="https://camilo-ovalle.github.io/Chrome-Tab-Monitor-Docs/">📄 Docs</a>
 </p>
 
-<h4>NDT_tool — Network Diagnostic Tool</h4>
+<h4><a href="https://github.com/Camilo-ovalle/Network-Diagnostics-Tool">NDT_tool</a> — Network Diagnostic Tool</h4>
 <p>
   Windows automation tool (CMD / Python) that runs a full network diagnostic suite (ping, tracert, nslookup) and saves structured log reports for rapid P1 incident analysis.<br>
   <strong>Reduced diagnostic logging time from 30 → 5 minutes (83% faster)</strong> · Adopted as the team's standard tool at Sutherland.<br>
-  <em>Repository coming soon — cleaning internal sensitive data.</em>
+  <a href="https://github.com/Camilo-ovalle/Network-Diagnostics-Tool">📂 GitHub Repository</a>
 </p>
 
 <h4><a href="https://camilo-ovalle.github.io/sysadmin-labs/">Sysadmin Labs</a></h4>
