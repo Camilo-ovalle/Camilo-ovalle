@@ -106,18 +106,3 @@
 <p align="center">
   <img src="https://streak-stats.demolab.com/?user=Camilo-ovalle&theme=github-dark-blue&hide_border=true" />
 </p>
-
-<hr>
-
-<h2>🎓 Education</h2>
-
-- **Software Engineering** — Compensar University Foundation *(Jan 2025 – present, 7th semester)*
-- **DevOps Certificate** — Universidad Javeriana *(Dec 2025 – Feb 2026)*
-- **Mechatronics Technologist** — SENA *(2017 – 2019)*
-
-<hr>
-
-<p align="center">
-  📄 <a href="assets/Camilo Ovalle DEV - CV EN  (1).pdf">Download my CV (PDF)</a> &nbsp;|&nbsp;
-  📂 <a href="cv/">LaTeX CV source files</a>
-</p>
