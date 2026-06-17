@@ -26,38 +26,25 @@
 
 <h2>🛠️ Tech Stack</h2>
 
-<h4>Frontend & Backend</h4>
+<h4>Frontend &amp; Backend</h4>
 <p>
-  <img src="https://img.shields.io/badge/JavaScript-%23F7DF1E.svg?&style=for-the-badge&logo=javascript&logoColor=black" />&nbsp;
-  <img src="https://img.shields.io/badge/TypeScript-%233178C6.svg?&style=for-the-badge&logo=typescript&logoColor=white" />&nbsp;
-  <img src="https://img.shields.io/badge/Python-%233776AB.svg?&style=for-the-badge&logo=python&logoColor=white" />&nbsp;
-  <img src="https://img.shields.io/badge/React-%2361DAFB.svg?&style=for-the-badge&logo=react&logoColor=black" />&nbsp;
-  <img src="https://img.shields.io/badge/Next.js-%23000000.svg?&style=for-the-badge&logo=nextdotjs&logoColor=white" />&nbsp;
-  <img src="https://img.shields.io/badge/Astro-%23FF5D01.svg?&style=for-the-badge&logo=astro&logoColor=white" />&nbsp;
-  <img src="https://img.shields.io/badge/Node.js-%23339933.svg?&style=for-the-badge&logo=nodedotjs&logoColor=white" />&nbsp;
-  <img src="https://img.shields.io/badge/Express-%23000000.svg?&style=for-the-badge&logo=express&logoColor=white" />&nbsp;
-  <img src="https://img.shields.io/badge/Tailwind CSS-%230ea5e9.svg?&style=for-the-badge&logo=tailwindcss&logoColor=white" />&nbsp;
-  <img src="https://img.shields.io/badge/HTML5-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white" />&nbsp;
-  <img src="https://img.shields.io/badge/CSS3-%231572B6.svg?&style=for-the-badge&logo=css&logoColor=white" />&nbsp;
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=js,ts,python,react,nextjs,astro,nodejs,express,tailwind,html,css&theme=dark" />
+  </a>
 </p>
 
-<h4>DevOps & Cloud</h4>
+<h4>DevOps &amp; Cloud</h4>
 <p>
-  <img src="https://img.shields.io/badge/Docker-%232496ED.svg?&style=for-the-badge&logo=docker&logoColor=white" />&nbsp;
-  <img src="https://img.shields.io/badge/Git-%23F05133.svg?&style=for-the-badge&logo=git&logoColor=white" />&nbsp;
-  <img src="https://img.shields.io/badge/GitHub-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white" />&nbsp;
-  <img src="https://img.shields.io/badge/CI%2FCD-%230A0A0A.svg?&style=for-the-badge&logo=githubactions&logoColor=white" />&nbsp;
-  <img src="https://img.shields.io/badge/AWS-%23232F3E.svg?&style=for-the-badge&logoColor=white" />&nbsp;
-  <img src="https://img.shields.io/badge/Azure-%230072C6.svg?&style=for-the-badge&logoColor=white" />&nbsp;
-  <img src="https://img.shields.io/badge/GCP-%234285F4.svg?&style=for-the-badge&logo=googlecloud&logoColor=white" />&nbsp;
-  <img src="https://img.shields.io/badge/Linux-%23FCC624.svg?&style=for-the-badge&logo=linux&logoColor=black" />&nbsp;
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=docker,git,github,githubactions,aws,azure,gcp,linux&theme=dark" />
+  </a>
 </p>
 
 <h4>Databases</h4>
 <p>
-  <img src="https://img.shields.io/badge/MySQL-%234479A1.svg?&style=for-the-badge&logo=mysql&logoColor=white" />&nbsp;
-  <img src="https://img.shields.io/badge/PostgreSQL-%234169E1.svg?&style=for-the-badge&logo=postgresql&logoColor=white" />&nbsp;
-  <img src="https://img.shields.io/badge/MongoDB-%2347A248.svg?&style=for-the-badge&logo=mongodb&logoColor=white" />&nbsp;
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=mysql,postgres,mongodb&theme=dark" />
+  </a>
 </p>
 
 <hr>
@@ -70,11 +57,7 @@
   ✅ <strong>Published on Chrome Web Store + Microsoft Edge Add-ons</strong> &nbsp;·&nbsp; 🖥️ Deployed to <strong>20+ enterprise machines via GPO</strong> &nbsp;·&nbsp; ⚙️ CI/CD with GitHub Actions &nbsp;·&nbsp; 🧪 Automated tests with Vitest.
 </p>
 <p>
-  <img src="https://img.shields.io/badge/JavaScript-%23F7DF1E.svg?&style=flat-square&logo=javascript&logoColor=black" />&nbsp;
-  <img src="https://img.shields.io/badge/HTML5-%23E34F26.svg?&style=flat-square&logo=html5&logoColor=white" />&nbsp;
-  <img src="https://img.shields.io/badge/CSS3-%231572B6.svg?&style=flat-square&logo=css&logoColor=white" />&nbsp;
-  <img src="https://img.shields.io/badge/Vitest-%236E9F18.svg?&style=flat-square&logo=vitest&logoColor=white" />&nbsp;
-  <img src="https://img.shields.io/badge/GitHub%20Actions-%232088FF.svg?&style=flat-square&logo=githubactions&logoColor=white" />
+  <img src="https://skillicons.dev/icons?i=js,html,css,vitest,githubactions&theme=dark" height="40" />
 </p>
 <p>
   <a href="https://chromewebstore.google.com/detail/tab-monitor/apbgiakfdalcpmnopopopookdceecnfj">🟡 Chrome Web Store</a>
@@ -92,9 +75,7 @@
   🚀 <strong>Cut diagnostic logging time from 30 → 5 min (83% faster)</strong> &nbsp;·&nbsp; ⭐ Adopted as the team's standard tool.
 </p>
 <p>
-  <img src="https://img.shields.io/badge/Python-%233776AB.svg?&style=flat-square&logo=python&logoColor=white" />&nbsp;
-  <img src="https://img.shields.io/badge/Batch-%234D4D4D.svg?&style=flat-square&logoColor=white" />&nbsp;
-  <img src="https://img.shields.io/badge/Windows-%230078D6.svg?&style=flat-square&logoColor=white" />
+  <img src="https://skillicons.dev/icons?i=python,powershell,windows&theme=dark" height="40" />
 </p>
 <p>
   <a href="https://github.com/Camilo-ovalle/Network-Diagnostics-Tool">📂 GitHub Repository</a>
@@ -107,9 +88,7 @@
   Public lab documenting hands-on practice with Active Directory, GPO configuration, user management, and Windows Server administration.
 </p>
 <p>
-  <img src="https://img.shields.io/badge/Windows%20Server-%230078D6.svg?&style=flat-square&logoColor=white" />&nbsp;
-  <img src="https://img.shields.io/badge/Active%20Directory-%23005A9E.svg?&style=flat-square&logoColor=white" />&nbsp;
-  <img src="https://img.shields.io/badge/PowerShell-%235391FE.svg?&style=flat-square&logoColor=white" />
+  <img src="https://skillicons.dev/icons?i=windows,powershell,bash&theme=dark" height="40" />
 </p>
 <p>
   <a href="https://camilo-ovalle.github.io/sysadmin-labs/">🔗 camilo-ovalle.github.io/sysadmin-labs</a>
