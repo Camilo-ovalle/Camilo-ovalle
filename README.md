@@ -32,13 +32,13 @@
   <img src="https://img.shields.io/badge/TypeScript-%233178C6.svg?&style=for-the-badge&logo=typescript&logoColor=white" />&nbsp;
   <img src="https://img.shields.io/badge/Python-%233776AB.svg?&style=for-the-badge&logo=python&logoColor=white" />&nbsp;
   <img src="https://img.shields.io/badge/React-%2361DAFB.svg?&style=for-the-badge&logo=react&logoColor=black" />&nbsp;
-  <img src="https://img.shields.io/badge/Next.js-%23000000.svg?&style=for-the-badge&logo=next.js&logoColor=white" />&nbsp;
+  <img src="https://img.shields.io/badge/Next.js-%23000000.svg?&style=for-the-badge&logo=nextdotjs&logoColor=white" />&nbsp;
   <img src="https://img.shields.io/badge/Astro-%23FF5D01.svg?&style=for-the-badge&logo=astro&logoColor=white" />&nbsp;
-  <img src="https://img.shields.io/badge/Node.js-%23339933.svg?&style=for-the-badge&logo=node.js&logoColor=white" />&nbsp;
+  <img src="https://img.shields.io/badge/Node.js-%23339933.svg?&style=for-the-badge&logo=nodedotjs&logoColor=white" />&nbsp;
   <img src="https://img.shields.io/badge/Express-%23000000.svg?&style=for-the-badge&logo=express&logoColor=white" />&nbsp;
   <img src="https://img.shields.io/badge/Tailwind CSS-%230ea5e9.svg?&style=for-the-badge&logo=tailwindcss&logoColor=white" />&nbsp;
   <img src="https://img.shields.io/badge/HTML5-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white" />&nbsp;
-  <img src="https://img.shields.io/badge/CSS3-%231572B6.svg?&style=for-the-badge&logo=css3&logoColor=white" />&nbsp;
+  <img src="https://img.shields.io/badge/CSS3-%231572B6.svg?&style=for-the-badge&logo=css&logoColor=white" />&nbsp;
 </p>
 
 <h4>DevOps & Cloud</h4>
@@ -47,8 +47,8 @@
   <img src="https://img.shields.io/badge/Git-%23F05133.svg?&style=for-the-badge&logo=git&logoColor=white" />&nbsp;
   <img src="https://img.shields.io/badge/GitHub-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white" />&nbsp;
   <img src="https://img.shields.io/badge/CI%2FCD-%230A0A0A.svg?&style=for-the-badge&logo=githubactions&logoColor=white" />&nbsp;
-  <img src="https://img.shields.io/badge/AWS-%23FF9900.svg?&style=for-the-badge&logo=amazon-aws&logoColor=white" />&nbsp;
-  <img src="https://img.shields.io/badge/Azure-%230072C6.svg?&style=for-the-badge&logo=microsoftazure&logoColor=white" />&nbsp;
+  <img src="https://img.shields.io/badge/AWS-%23232F3E.svg?&style=for-the-badge&logoColor=white" />&nbsp;
+  <img src="https://img.shields.io/badge/Azure-%230072C6.svg?&style=for-the-badge&logoColor=white" />&nbsp;
   <img src="https://img.shields.io/badge/GCP-%234285F4.svg?&style=for-the-badge&logo=googlecloud&logoColor=white" />&nbsp;
   <img src="https://img.shields.io/badge/Linux-%23FCC624.svg?&style=for-the-badge&logo=linux&logoColor=black" />&nbsp;
 </p>
@@ -62,28 +62,21 @@
 
 <hr>
 
-<h2>💼 Experience</h2>
+<h2>🚀 Featured Projects</h2>
 
-<table>
-  <tr>
-    <td><strong>Sr. IT Support Specialist</strong></td>
-    <td>Sutherland SGS</td>
-    <td>May 2024 – present</td>
-  </tr>
-</table>
-
-- 🔧 **Built NDT_tool** — Windows automation tool (CMD/Python) that runs network diagnostics and exports structured log reports; **reduced P1 data-collection time from 30 → 5 min (83% faster)**; adopted as team standard.
-- 🧩 **Built & shipped Tab Monitor** — Chromium extension live on Chrome Web Store + Edge Add-ons, deployed to 20+ machines via GPO, with GitHub Actions CI/CD and Vitest tests.
-- 📡 Primary IT POC for 3 client campaigns (~20 tickets/day) — coordinates software rollouts, director-level communication, and security risk mitigation.
-
-<hr>
-
-<h2>🚀 Projects</h2>
-
-<h4><a href="https://chromewebstore.google.com/detail/tab-monitor/apbgiakfdalcpmnopopopookdceecnfj">Tab Monitor</a> — Chrome & Edge Extension</h4>
+<h3>🧩 <a href="https://chromewebstore.google.com/detail/tab-monitor/apbgiakfdalcpmnopopopookdceecnfj">Tab Monitor</a> — Chrome &amp; Edge Extension</h3>
 <p>
-  Chromium extension (JavaScript / HTML / CSS) that limits open tabs and windows to reduce RAM, CPU and GPU consumption on production workstations.<br>
-  <strong>Published on Chrome Web Store and Microsoft Edge Add-ons</strong> · Deployed to 20+ enterprise machines via GPO · CI/CD with GitHub Actions · Automated tests with Vitest.<br>
+  Chromium extension that limits open tabs and windows to cut RAM, CPU and GPU usage on production workstations.<br>
+  ✅ <strong>Published on Chrome Web Store + Microsoft Edge Add-ons</strong> &nbsp;·&nbsp; 🖥️ Deployed to <strong>20+ enterprise machines via GPO</strong> &nbsp;·&nbsp; ⚙️ CI/CD with GitHub Actions &nbsp;·&nbsp; 🧪 Automated tests with Vitest.
+</p>
+<p>
+  <img src="https://img.shields.io/badge/JavaScript-%23F7DF1E.svg?&style=flat-square&logo=javascript&logoColor=black" />&nbsp;
+  <img src="https://img.shields.io/badge/HTML5-%23E34F26.svg?&style=flat-square&logo=html5&logoColor=white" />&nbsp;
+  <img src="https://img.shields.io/badge/CSS3-%231572B6.svg?&style=flat-square&logo=css&logoColor=white" />&nbsp;
+  <img src="https://img.shields.io/badge/Vitest-%236E9F18.svg?&style=flat-square&logo=vitest&logoColor=white" />&nbsp;
+  <img src="https://img.shields.io/badge/GitHub%20Actions-%232088FF.svg?&style=flat-square&logo=githubactions&logoColor=white" />
+</p>
+<p>
   <a href="https://chromewebstore.google.com/detail/tab-monitor/apbgiakfdalcpmnopopopookdceecnfj">🟡 Chrome Web Store</a>
   &nbsp;·&nbsp;
   <a href="https://microsoftedge.microsoft.com/addons/detail/tab-monitor/aidfbccdmjdoloknpoiacciagffokjcb">🔵 Edge Add-ons</a>
@@ -91,17 +84,35 @@
   <a href="https://camilo-ovalle.github.io/Chrome-Tab-Monitor-Docs/">📄 Docs</a>
 </p>
 
-<h4><a href="https://github.com/Camilo-ovalle/Network-Diagnostics-Tool">NDT_tool</a> — Network Diagnostic Tool</h4>
+<br>
+
+<h3>🔧 <a href="https://github.com/Camilo-ovalle/Network-Diagnostics-Tool">NDT_tool</a> — Network Diagnostic Tool</h3>
 <p>
-  Windows automation tool (CMD / Python) that runs a full network diagnostic suite (ping, tracert, nslookup) and saves structured log reports for rapid P1 incident analysis.<br>
-  <strong>Reduced diagnostic logging time from 30 → 5 minutes (83% faster)</strong> · Adopted as the team's standard tool at Sutherland.<br>
+  Windows automation tool that runs a full network diagnostic suite (ping, tracert, nslookup) and exports structured log reports for rapid P1 incident analysis.<br>
+  🚀 <strong>Cut diagnostic logging time from 30 → 5 min (83% faster)</strong> &nbsp;·&nbsp; ⭐ Adopted as the team's standard tool.
+</p>
+<p>
+  <img src="https://img.shields.io/badge/Python-%233776AB.svg?&style=flat-square&logo=python&logoColor=white" />&nbsp;
+  <img src="https://img.shields.io/badge/Batch-%234D4D4D.svg?&style=flat-square&logoColor=white" />&nbsp;
+  <img src="https://img.shields.io/badge/Windows-%230078D6.svg?&style=flat-square&logoColor=white" />
+</p>
+<p>
   <a href="https://github.com/Camilo-ovalle/Network-Diagnostics-Tool">📂 GitHub Repository</a>
 </p>
 
-<h4><a href="https://camilo-ovalle.github.io/sysadmin-labs/">Sysadmin Labs</a></h4>
+<br>
+
+<h3>📁 <a href="https://camilo-ovalle.github.io/sysadmin-labs/">Sysadmin Labs</a> — Hands-on Infrastructure Docs</h3>
 <p>
-  Public lab documenting hands-on practice with Active Directory, GPO configuration, user management, and Windows Server administration.<br>
-  <a href="https://camilo-ovalle.github.io/sysadmin-labs/">📁 camilo-ovalle.github.io/sysadmin-labs</a>
+  Public lab documenting hands-on practice with Active Directory, GPO configuration, user management, and Windows Server administration.
+</p>
+<p>
+  <img src="https://img.shields.io/badge/Windows%20Server-%230078D6.svg?&style=flat-square&logoColor=white" />&nbsp;
+  <img src="https://img.shields.io/badge/Active%20Directory-%23005A9E.svg?&style=flat-square&logoColor=white" />&nbsp;
+  <img src="https://img.shields.io/badge/PowerShell-%235391FE.svg?&style=flat-square&logoColor=white" />
+</p>
+<p>
+  <a href="https://camilo-ovalle.github.io/sysadmin-labs/">🔗 camilo-ovalle.github.io/sysadmin-labs</a>
 </p>
 
 <hr>
